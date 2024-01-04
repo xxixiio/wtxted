@@ -41,7 +41,7 @@ impl Document {
         if at.y > self.len() {            
             return;            
         }
-        if at.y > self.rows.len() {
+        if at.y == self.rows.len() {
             self.rows.push(Row::default());
             return;
         }
@@ -52,7 +52,7 @@ impl Document {
     }
 
     pub fn insert(&mut self, at: &Position, c: char) {
-        if at.y == self.rows.len() {
+        if at.y > self.rows.len() {
             return;
         }
         self.dirty = true;
