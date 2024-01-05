@@ -26,5 +26,3 @@ pub use terminal::Terminal;
 fn main() {
     Editor::default().run();
 }
-
-// [TODO] Colorful search results
