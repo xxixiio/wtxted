@@ -10,7 +10,7 @@ use termion::event::Key;
 const STATUS_FG_COLOR: color::Rgb = color::Rgb(229, 229, 229);
 const STATUS_BG_COLOR: color::Rgb = color::Rgb(1, 36, 86);
 const VERSION: &str = env!("CARGO_PKG_VERSION");
-const QUIT_TIMES: u8 = 3;
+const QUIT_TIMES: u8 = 2;
 
 #[derive(PartialEq, Copy, Clone)]
 pub enum SearchDirection {
