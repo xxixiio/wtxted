@@ -9,7 +9,7 @@ Only tested on Linux and WSL.
 Clone repository.
 
 ```bash
-  git clone https://github.com/hizer00/wtxted
+  git clone https://github.com/xxixiio/wtxted
 ```
 
 In the directory created, install all the dependencies.
