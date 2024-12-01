@@ -29,9 +29,3 @@ Open a file:
 ```bash
   cargo run <path/file>
 ```
-
-## Used By
-
-This project is used by the following companies:
-
-- literally no one
