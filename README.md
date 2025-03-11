@@ -3,7 +3,7 @@
 
 Terminal based text editor for Unix-like systems. Following [hecto](https://www.flenker.blog/hecto/) tutorial.
 
-Only tested on Linux and WSL.
+Only tested on Ubuntu (LTS 22.04) and WSL.
 ## Installation
 
 Clone repository.
